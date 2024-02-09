@@ -4,8 +4,6 @@
 The Video Anomaly Detection System is a sophisticated web-based application designed to identify and report anomalies in video footage. Leveraging advanced machine learning algorithms, this system can automatically flag unusual patterns or events without human intervention. The application is built on Flask, a lightweight Python web framework, ensuring quick deployment and ease of use.
 
 # Features
-1) User-Friendly Interface: The application boasts a Netflix-like dark theme, making the navigation and interaction intuitive and visually appealing.
-2) Live Animated Background: The dynamic gradient background creates a lively and engaging user experience, resonating with the modern web design trends.
 3) File Upload Capability: Users can easily upload video files directly through the web interface. The system accepts a range of video formats for analysis.
 4) Black & White Themed Buttons: With an aesthetic reminiscent of classic cinema, the interactive buttons on the site feature a cool hover animation effect, enhancing the user experience.
 5) Real-Time Processing: Once a video is uploaded, the system promptly processes the footage frame by frame to detect any anomalies.
