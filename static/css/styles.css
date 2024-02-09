@@ -1,0 +1,81 @@
+/* Set the background of the whole page */
+body {
+    background-image: url('Background4.webp'); /* Update with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Style the container for the form */
+  .container {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust alpha for desired transparency */
+    border-radius: 10px;
+    padding: 40px;
+    width: 350px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align the text */
+  }
+  
+  /* Style the header in the container */
+  .container header h1 {
+    color: #333; /* Dark grey color for the text */
+    margin-bottom: 30px; /* Space below the header */
+  }
+  
+  /* Style the file input */
+  input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px; /* Space below the file input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer; /* Cursor indicates it's clickable */
+  }
+  
+  /* Hide the default file input style and replace with a custom button */
+  input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  input[type="file"]::before {
+    content: 'Select file';
+    display: inline-block;
+    background: #5C6BC0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+  }
+  
+  /* Change button hover color */
+  input[type="file"]:hover::before {
+    background-color: #3F51B5;
+  }
+  
+  /* Style the upload button */
+  .btn-upload {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #5C6BC0; /* Adjust color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Make text a bit larger */
+    font-weight: 700; /* Make text bold */
+  }
+  
+  /* Change the background color on hover */
+  .btn-upload:hover {
+    background-color: #3F51B5;
+  }
+  
